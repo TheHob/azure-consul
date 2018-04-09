@@ -2,6 +2,8 @@ terraform {
   required_version = ">= 0.10.1"
 }
 
+
+
 provider "azurerm" {}
 
 resource "azurerm_resource_group" "main" {
